@@ -1,0 +1,24 @@
+digraph {
+	CG [label=CG]
+	AC [label=AC]
+	CT [label=CT]
+	GA [label=GA]
+	TG [label=TG]
+	AG [label=AG]
+	TC [label=TC]
+	GG [label=GG]
+	GT [label=GT]
+	AA [label=AA]
+	AC -> CT
+	CT -> TG
+	TG -> GA
+	GA -> AA
+	AA -> AG
+	AG -> GG
+	GG -> GG
+	GG -> GG
+	GG -> GT
+	GT -> TC
+	TC -> CG
+	CG -> GA
+}
