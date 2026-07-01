@@ -1,5 +1,5 @@
-from bm_preproc import BoyerMoore
-from kmer_index import Index
+from coursera.Codes.bm_preproc import BoyerMoore
+from coursera.Codes.kmer_index import Index
 
 def boyer_moore_with_counts(p, p_bm, t):
     """ Do Boyer-Moore matching. p=pattern, t=text,
